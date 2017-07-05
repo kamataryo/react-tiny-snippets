@@ -1,6 +1,6 @@
 {
   "name": "react-short-snippets",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Short snippets for React",
   "main": "index.js",
   "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
