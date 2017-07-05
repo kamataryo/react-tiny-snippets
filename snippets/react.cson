@@ -1,0 +1,153 @@
+'.source.js':
+  'react-lifecycle-methods/render':
+    prefix: 'render react-lifecycle-methods'
+    leftLabel: 'render()'
+    body: '''
+      /**
+       * render
+       * @return {ReactElement|null|false} render a React element.
+       */
+      render() {
+        return (
+          $1
+        )
+      }
+      '''
+  'react-lifecycle-methods/constructor':
+    prefix: 'constructor react-lifecycle-methods'
+    leftLabel: 'constructor(props)'
+    body: '''
+      /**
+       * constructor
+       * @param  {object} props React props.
+       * @return {void}
+       */
+      constructor(props) {
+        this.super(props)
+        this.state = { $1 }
+      }
+      '''
+  'react-lifecycle-methods/componentWillMount':
+    prefix: 'componentwillmount react-lifecycle-methods'
+    leftLabel: 'componentWillMount()'
+    body: '''
+      /**
+       * componentWillMount
+       * @return {void}
+       */
+      componentWillMount() {
+        $1
+      }
+      '''
+
+  'react-lifecycle-methods/componentDidMount':
+    prefix: 'componentdidmount react-lifecycle-methods'
+    leftLabel: 'componentDidMount()'
+    body: '''
+      /**
+       * componentDidMount
+       * @return {void}
+       */
+      componentDidMount() {
+        $1
+      }
+      '''
+
+  'react-lifecycle-methods/componentWillReceiveProps':
+    prefix: 'componentwillreceiveprops react-lifecycle-methods'
+    leftLabel: 'componentWillReceiveProps(props)'
+    body: '''
+      /**
+       * componentWillReceiveProps
+       * @param  {object} nextProps React props.
+       * @return {void}
+       */
+      componentWillReceiveProps(nextProps) {
+        $1
+      }
+      '''
+
+
+  'react-lifecycle-methods/shouldComponentUpdate':
+    prefix: 'shouldcomponentupdate react-lifecycle-methods'
+    leftLabel: 'shouldComponentUpdate(nextProps, nextState)'
+    body: '''
+      /**
+       * shouldComponentUpdate
+       * @param  {object} nextProps next props
+       * @param  {object} nextState next state
+       * @return {boolean}          should component update
+       */
+      shouldComponentUpdate(nextProps, nextState) {
+        $1
+      }
+      '''
+
+  'react-lifecycle-methods/componentWillUpdate':
+    prefix: 'componentwillupdate react-lifecycle-methods'
+    leftLabel: 'componentWillUpdate(nextProps, nextState)'
+    body: '''
+      /**
+       * componentWillUpdate
+       * @param  {object} nextProps next props
+       * @param  {object} nextState next state
+       * @return {void}
+       */
+      componentWillUpdate(nextProps, nextState) {
+        $1
+      }
+      '''
+
+  'react-lifecycle-methods/componentDidUpdate':
+    prefix: 'componentdidupdate react-lifecycle-methods'
+    leftLabel: 'componentDidUpdate(nextProps, nextState)'
+    body: '''
+      /**
+       * componentDidUpdate
+       * @param  {object} nextProps next props
+       * @param  {object} nextState next state
+       * @return {void}
+       */
+      componentDidUpdate(nextProps, nextState) {
+        $1
+      }
+      '''
+
+  'react-lifecycle-methods/componentWillUnmount':
+    prefix: 'componentwillunmount react-lifecycle-methods'
+    leftLabel: 'componentWillUnmount()'
+    body: '''
+      /**
+       * componentWillUnmount
+       * @return {void}
+       */
+      componentWillUnmount() {
+        $1
+      }
+      '''
+
+  'react-class-property/propTypes':
+    prefix: 'proptypes react-class-property'
+    leftLabel: 'static propTypes'
+    body: '''
+      /**
+       * propTypes
+       * @type {object}
+       */
+       static propTypes = {
+         $1
+       }
+      '''
+
+  'react-class-property/defaultProps':
+    prefix: 'defaultprops react-class-property'
+    leftLabel: 'static defaultProps'
+    body: '''
+      /**
+       * defaultProps
+       * @type {object}
+       */
+       static defaultProps = {
+         $1
+       }
+      '''
