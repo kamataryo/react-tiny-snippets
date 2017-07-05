@@ -1,7 +1,6 @@
 # React Short Snippets for Atom
 
-[![Build Status](https://travis-ci.org/kamataryo/react-short-snippets.svg?branch=master)](https://travis-ci.org/kamataryo/react-short-snippets)
-[![apm](https://img.shields.io/apm/v/react-short-snippets.svg)](https://atom.io/packages/react-short-snippets)
+[![apm](https://img.shields.io/apm/v/react-tiny-snippets.svg)](https://atom.io/packages/react-tiny-snippets)
 
 Short Snippets of React for [Atom](https://atom.io/) editor.
 
@@ -17,13 +16,13 @@ Run the following command:
 $ apm install react-tiny-snippets
 ```
 
-Alternatively go to `Atom > Preferences > Packages` and search for `react-short-snippets`.
+Alternatively go to `Atom > Preferences > Packages` and search for `react-tiny-snippets`.
 
 ## Development
 
 ```shell
-git clone git@github.com:kamataryo/react-short-snippets.git
-cd react-short-snippets
+git clone git@github.com:kamataryo/react-tiny-snippets.git
+cd react-tiny-snippets
 npm install
 npm run build
 ```
