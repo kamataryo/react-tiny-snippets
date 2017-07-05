@@ -1,12 +1,27 @@
-# React Short Snippets for Atom
+# React Tiny Snippets for Atom
 
 [![apm](https://img.shields.io/apm/v/react-tiny-snippets.svg)](https://atom.io/packages/react-tiny-snippets)
 
-Short Snippets of React for [Atom](https://atom.io/) editor.
+Tiny Snippets of React for [Atom](https://atom.io/) editor.
 
 This package autocompletes..
 - Life cycle method names and their declarations
-- Class property names and their declarations
+- static class property names and their declarations
+
+#### example
+
+```javascript
+// Typing `componentwillreceiveprops` leads...
+
+/**
+ * componentWillReceiveProps
+ * @param  {object} nextProps React props.
+ * @return {void}
+ */
+componentWillReceiveProps(nextProps) {
+  $1
+}
+```
 
 ## Installation
 
