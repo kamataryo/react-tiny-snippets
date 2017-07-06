@@ -23,7 +23,7 @@
        * @return {void}
        */
       constructor(props) {
-        this.super(props)
+        super(props)
         this.state = { $1 }
       }
       '''
