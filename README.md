@@ -51,3 +51,4 @@ Issues and PRs are welcome.
 ### 0.0.5
 
 - Fix indent bug for `propTypes` and `defaultProps`
+- add `componentDidCatch` snippet for React v16

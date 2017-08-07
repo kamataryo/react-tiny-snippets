@@ -40,6 +40,21 @@
       }
       '''
 
+  'react-lifecycle-methods/componentDidCatch':
+    prefix: 'componentdidcatch react-lifecycle-methods'
+    leftLabel: 'componentDidCatch()'
+    body: '''
+      /**
+       * componentDidCatch
+       * @param  {Error} error error
+       * @param  {info}  info  info
+       * @return {void}
+       */
+      componentDidCatch(error, info) {
+        $1
+      }
+      '''
+
   'react-lifecycle-methods/componentDidMount':
     prefix: 'componentdidmount react-lifecycle-methods'
     leftLabel: 'componentDidMount()'
