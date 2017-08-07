@@ -45,3 +45,9 @@ npm run build
 ## Contribution
 
 Issues and PRs are welcome.
+
+## Release Note
+
+### 0.0.5
+
+- Fix indent bug for `propTypes` and `defaultProps`

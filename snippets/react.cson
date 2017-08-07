@@ -134,9 +134,9 @@
        * propTypes
        * @type {object}
        */
-       static propTypes = {
-         $1
-       }
+      static propTypes = {
+        $1
+      }
       '''
 
   'react-class-property/defaultProps':
@@ -147,7 +147,7 @@
        * defaultProps
        * @type {object}
        */
-       static defaultProps = {
-         $1
+      static defaultProps = {
+        $1
        }
       '''
