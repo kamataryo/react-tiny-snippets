@@ -164,5 +164,5 @@
        */
       static defaultProps = {
         $1
-       }
+      }
       '''
