@@ -13,6 +13,22 @@
         )
       }
       '''
+
+  'react-lifecycle-methods/getSnapshotBeforeUpdate':
+    prefix: 'getsnapshotbeforeupdate react-lifecycle-methods'
+    leftLabel: 'getSnapshotBeforeUpdate()'
+    body: '''
+      /**
+       * render
+       * @param  {object} prevProps prev props
+       * @param  {object} prevState prev state
+       * @return {any} snapshot
+       */
+      getSnapshotBeforeUpdate(prevProps, prevState) {
+        $1
+      }
+      '''
+
   'react-lifecycle-methods/constructor':
     prefix: 'constructor react-lifecycle-methods'
     leftLabel: 'constructor(props)'
@@ -27,6 +43,7 @@
         this.state = { $1 }
       }
       '''
+
   'react-lifecycle-methods/componentWillMount':
     prefix: 'componentwillmount react-lifecycle-methods'
     leftLabel: 'componentWillMount()'
@@ -36,6 +53,19 @@
        * @return {void}
        */
       componentWillMount() {
+        $1
+      }
+      '''
+
+  'react-lifecycle-methods/UNSAFE_componentWillMount':
+    prefix: 'unsafe_componentwillmount react-lifecycle-methods'
+    leftLabel: 'UNSAFE_componentWillMount()'
+    body: '''
+      /**
+       * UNSAFE_componentWillMount
+       * @return {void}
+       */
+      UNSAFE_componentWillMount() {
         $1
       }
       '''
@@ -82,6 +112,19 @@
       }
       '''
 
+  'react-lifecycle-methods/UNSAFE_componentWillReceiveProps':
+    prefix: 'unsafe_componentwillreceiveprops react-lifecycle-methods'
+    leftLabel: 'UNSAFE_componentWillReceiveProps(props)'
+    body: '''
+      /**
+       * UNSAFE_componentWillReceiveProps
+       * @param  {object} nextProps React props.
+       * @return {void}
+       */
+      UNSAFE_componentWillReceiveProps(nextProps) {
+        $1
+      }
+      '''
 
   'react-lifecycle-methods/shouldComponentUpdate':
     prefix: 'shouldcomponentupdate react-lifecycle-methods'
@@ -109,6 +152,21 @@
        * @return {void}
        */
       componentWillUpdate(nextProps, nextState) {
+        $1
+      }
+      '''
+
+  'react-lifecycle-methods/UNSAFE_componentWillUpdate':
+    prefix: 'unsafe_componentwillupdate react-lifecycle-methods'
+    leftLabel: 'UNSAFE_componentWillUpdate(nextProps, nextState)'
+    body: '''
+      /**
+       * UNSAFE_componentWillUpdate
+       * @param  {object} nextProps next props
+       * @param  {object} nextState next state
+       * @return {void}
+       */
+      UNSAFE_componentWillUpdate(nextProps, nextState) {
         $1
       }
       '''
@@ -163,6 +221,21 @@
        * @type {object}
        */
       static defaultProps = {
+        $1
+      }
+      '''
+
+  'react-class-property/getDerivedStateFromProps':
+    prefix: 'getderivedstatefromprops react-class-property'
+    leftLabel: 'static getDerivedStateFromProps()'
+    body: '''
+      /**
+       * getDerivedStateFromProps
+       * @param  {object} nextProps next props
+       * @param  {object} prevState prev state
+       * @return {object} new state
+       */
+      static getDerivedStateFromProps(nextProps, prevState) {
         $1
       }
       '''

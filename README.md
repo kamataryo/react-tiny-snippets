@@ -5,8 +5,9 @@
 Tiny Snippets of React for [Atom](https://atom.io/) editor.
 
 This package autocompletes..
-- Life cycle method names and their declarations
-- static class property names and their declarations
+
+* Life cycle method names and their declarations
+* static class property names and their declarations
 
 #### example
 
@@ -48,7 +49,11 @@ Issues and PRs are welcome.
 
 ## Release Note
 
+### 0.0.9
+
+* Add getDerivedStateFromProps, getSnapshotBeforeUpdate, UNSAFE_componentWillMount, UNSAFE_componentWillUpdate and UNSAFE_componentWillReceiveProps.
+
 ### 0.0.5
 
-- Fix indent bug for `propTypes` and `defaultProps`
-- add `componentDidCatch` snippet for React v16
+* Fix indent bug for `propTypes` and `defaultProps`
+* add `componentDidCatch` snippet for React v16
