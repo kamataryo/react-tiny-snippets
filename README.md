@@ -13,6 +13,7 @@ This package autocompletes..
 
 ```javascript
 // Typing `componentwillreceiveprops` leads...
+// $1 is next your cursor position
 
 /**
  * componentWillReceiveProps
