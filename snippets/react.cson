@@ -173,15 +173,16 @@
 
   'react-lifecycle-methods/componentDidUpdate':
     prefix: 'componentdidupdate react-lifecycle-methods'
-    leftLabel: 'componentDidUpdate(nextProps, nextState)'
+    leftLabel: 'componentDidUpdate(prevProps, prevState, snapshot)'
     body: '''
       /**
        * componentDidUpdate
-       * @param  {object} nextProps next props
-       * @param  {object} nextState next state
+       * @param  {object} prevProps prev props
+       * @param  {object} prevState prev state
+       * @param  {object} snapshot  snapshot
        * @return {void}
        */
-      componentDidUpdate(nextProps, nextState) {
+      componentDidUpdate(prevProps, prevState, snapshot) {
         $1
       }
       '''
